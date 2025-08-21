@@ -75,11 +75,7 @@ export default function About() {
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
               />
             </div>
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginTop: '0.75rem' }}>
-              <img src="/images/brand/jds_logo.jpeg" alt="Brand 1" style={{ height: 22 }} />
-              <img src="/images/brand/jds wordmark.jpg" alt="Brand 2" style={{ height: 22 }} />
-              <span style={{ fontSize: 12, color: '#666' }}>Extraordinary made effortless.</span>
-            </div>
+
           </motion.div>
 
           <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
@@ -131,12 +127,9 @@ export default function About() {
           }}
         >
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
-            style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-            <div style={{ width: '100%', aspectRatio: '1/1', borderRadius: '50%', overflow: 'hidden' }}>
+            style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ width: '400px', height: '300px', borderRadius: '12px', overflow: 'hidden' }}>
               <img src="/images/about/texture.jpg" alt="Material texture" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            </div>
-            <div style={{ width: '100%', aspectRatio: '1/1', borderRadius: '50%', overflow: 'hidden' }}>
-              <img src="/images/about/iris.jpg" alt="Iris macro" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
           </motion.div>
 
