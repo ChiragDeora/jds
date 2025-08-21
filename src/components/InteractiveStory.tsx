@@ -1,10 +1,9 @@
 'use client';
 
 import { useRef, useEffect } from 'react';
-import { motion } from 'framer-motion';
 
 // Dynamic import for GSAP to avoid SSR issues
-let gsap: any, ScrollTrigger: any;
+let gsap: typeof import('gsap').gsap, ScrollTrigger: typeof import('gsap/ScrollTrigger').ScrollTrigger;
 
 interface Scene {
   title: string;
@@ -102,17 +101,17 @@ export default function InteractiveStory() {
     {
       title: 'Design',
       description: 'Blueprinting each curve and line to perfection.',
-      image: '/sunglasses-aviator.jpg'
+      image: '/images/collections/sunglasses-aviator.jpg'
     },
     {
       title: 'Craft',
       description: 'Handcrafted acetate and precision finishing.',
-      image: '/optical-square.jpg'
+      image: '/images/collections/optical-square.jpg'
     },
     {
       title: 'Finish',
       description: 'Polished to optical perfection for your eyes.',
-      image: '/sunglasses-wayfarer.jpg'
+      image: '/images/collections/sunglasses-wayfarer.jpg'
     }
   ];
 

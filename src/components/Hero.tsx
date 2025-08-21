@@ -10,7 +10,7 @@ export default function Hero() {
     const v = videoRef.current;
     if (!v) return;
     const play = async () => {
-      try { await v.play(); } catch (_) { /* ignore */ }
+      try { await v.play(); } catch { /* ignore */ }
     };
     play();
   }, []);
@@ -27,7 +27,7 @@ export default function Hero() {
       {/* Background video */}
       <video
         ref={videoRef}
-        src="/herovideo.mp4"
+        src="/videos/herovideo.mp4"
         autoPlay
         muted
         loop

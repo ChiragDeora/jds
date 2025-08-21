@@ -11,11 +11,11 @@ interface Slide {
 export default function HeroCarousel() {
   const slides: Slide[] = useMemo(
     () => [
-      { src: '/sunglasses-wayfarer.jpg', title: 'Wayfarer', subtitle: 'Premium Sunglasses' },
-      { src: '/sunglasses-aviator.jpg', title: 'Aviator', subtitle: 'Iconic Metal Frames' },
-      { src: '/sunglasses-round.jpg', title: 'Round', subtitle: 'Vintage Revival' },
-      { src: '/optical-square.jpg', title: 'Square', subtitle: 'Precision Opticals' },
-      { src: '/optical-rimless.jpg', title: 'Rimless', subtitle: 'Featherweight Comfort' }
+        { src: '/images/collections/sunglasses-wayfarer.jpg', title: 'Wayfarer', subtitle: 'Premium Sunglasses' },
+  { src: '/images/collections/sunglasses-aviator.jpg', title: 'Aviator', subtitle: 'Iconic Metal Frames' },
+  { src: '/images/collections/sunglasses-round.jpg', title: 'Round', subtitle: 'Vintage Revival' },
+  { src: '/images/collections/optical-square.jpg', title: 'Square', subtitle: 'Precision Opticals' },
+  { src: '/images/collections/optical-rimless.jpg', title: 'Rimless', subtitle: 'Featherweight Comfort' }
     ],
     []
   );

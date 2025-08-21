@@ -2,9 +2,9 @@
 
 export default function ProcessHighlights() {
   const items = [
-    { title: 'Design', text: 'Human‑centred forms, balanced weight and flattering proportions.', img: '/sunglasses-aviator.jpg' },
-    { title: 'Craft', text: 'Hand‑polished edges, smooth hinges and carefully matched colours.', img: '/optical-square.jpg' },
-    { title: 'Finish', text: 'Anti‑smudge coatings and durable plating for everyday resilience.', img: '/sunglasses-wayfarer.jpg' },
+      { title: 'Design', text: 'Human‑centred forms, balanced weight and flattering proportions.', img: '/images/collections/sunglasses-aviator.jpg' },
+  { title: 'Craft', text: 'Hand‑polished edges, smooth hinges and carefully matched colours.', img: '/images/collections/optical-square.jpg' },
+  { title: 'Finish', text: 'Anti‑smudge coatings and durable plating for everyday resilience.', img: '/images/collections/sunglasses-wayfarer.jpg' },
   ];
 
   return (

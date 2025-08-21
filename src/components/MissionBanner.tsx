@@ -41,7 +41,7 @@ export default function MissionBanner() {
         </div>
         <div style={{ alignSelf: 'center' }}>
           <div style={{ position: 'relative', borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(0,0,0,0.08)', boxShadow: '0 14px 32px rgba(0,0,0,0.10)' }}>
-            <img src="/hero-glasses.jpg" alt="Precision‑fit eyewear" style={{ width: '100%', height: 260, objectFit: 'cover', display: 'block' }} />
+            <img src="/images/hero/hero-glasses.jpg" alt="Precision‑fit eyewear" style={{ width: '100%', height: 260, objectFit: 'cover', display: 'block' }} />
           </div>
         </div>
       </div>

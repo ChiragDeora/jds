@@ -3,8 +3,8 @@
 // Simplified Lookbook with strict bounds and no animation frameworks
 export default function Lookbook() {
   const blocks = [
-    { src: '/lookbook-1.jpg', caption: 'Cat Eye Collection - Elegant & Bold' },
-    { src: '/lookbook-2.jpg', caption: 'Round Frame Collection - Classic & Timeless' }
+      { src: '/images/lookbook/lookbook-1.jpg', caption: 'Cat Eye Collection - Elegant & Bold' },
+  { src: '/images/lookbook/lookbook-2.jpg', caption: 'Round Frame Collection - Classic & Timeless' }
   ];
 
   return (

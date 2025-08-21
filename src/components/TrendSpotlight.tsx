@@ -24,19 +24,19 @@ export default function TrendSpotlight() {
       tag: 'Oversized cat‑eye',
       heading: 'Rise of the Cat',
       text: 'Explore the oversized cat‑eye trend dominating 2025 fashion.',
-      img: '/sunglasses-cat-eye.jpg'
+      img: '/images/collections/sunglasses-cat-eye.jpg'
     },
     {
       tag: 'Minimal Rimless',
       heading: 'Barely There',
       text: 'Sleek rimless frames for a weightless modern look.',
-      img: '/optical-rimless.jpg'
+      img: '/images/collections/optical-rimless.jpg'
     },
     {
       tag: 'Chromatic Acetate',
       heading: 'Colour Pop',
       text: 'Vivid hues and marbled acetates to express yourself.',
-      img: '/sunglasses-round.jpg'
+      img: '/images/collections/sunglasses-round.jpg'
     }
   ];
 

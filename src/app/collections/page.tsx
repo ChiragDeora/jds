@@ -79,7 +79,7 @@ export default function Collections() {
             <span style={{ fontSize:14, color:'#666', fontWeight:500 }}>Sort</span>
             <select
               value={sort}
-              onChange={e=>setSort(e.target.value as any)}
+              onChange={e=>setSort(e.target.value as 'new' | 'low' | 'high')}
               style={{ padding:'0.6rem 1rem', borderRadius:8, border:'1px solid #ddd', background:'#fff', fontSize:14, fontWeight:500 }}
             >
               <option value="new">Date, new to old</option>

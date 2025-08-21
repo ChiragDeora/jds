@@ -70,14 +70,14 @@ export default function About() {
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
             <div style={{ position: 'relative', overflow: 'hidden', borderRadius: 12 }}>
               <img
-                src="/images/about/brand-driver.jpg"
+                src="/images/hero/hero-glasses.jpg"
                 alt="Lifestyle eyewear visual"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
               />
             </div>
             <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginTop: '0.75rem' }}>
-              <img src="/images/about/logo-1.svg" alt="Brand 1" style={{ height: 22 }} />
-              <img src="/images/about/logo-2.svg" alt="Brand 2" style={{ height: 22 }} />
+              <img src="/images/brand/jds_logo.jpeg" alt="Brand 1" style={{ height: 22 }} />
+              <img src="/images/brand/jds wordmark.jpg" alt="Brand 2" style={{ height: 22 }} />
               <span style={{ fontSize: 12, color: '#666' }}>Extraordinary made effortless.</span>
             </div>
           </motion.div>

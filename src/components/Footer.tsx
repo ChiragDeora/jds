@@ -48,7 +48,7 @@ export default function Footer() {
             justifyContent: 'center'
           }}>
             <img 
-              src="/jds_logo.jpeg" 
+              src="/images/brand/jds_logo.jpeg" 
               alt="JDS Logo" 
               style={{
                 width: '100%',

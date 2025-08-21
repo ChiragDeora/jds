@@ -4,15 +4,10 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 export default function Navbar() {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
@@ -20,11 +15,9 @@ export default function Navbar() {
     // Set initial mobile state
     handleResize();
 
-    window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
     
     return () => {
-      window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
     };
   }, []);
@@ -82,7 +75,7 @@ export default function Navbar() {
             justifyContent: 'center'
           }}>
             <img 
-              src="/jds_logo.jpeg" 
+              src="/images/brand/jds_logo.jpeg" 
               alt="JDS Logo" 
               style={{
                 width: '100%',
@@ -92,7 +85,7 @@ export default function Navbar() {
             />
           </div>
           <img 
-            src="/jds wordmark.jpg" 
+            src="/images/brand/jds wordmark.jpg" 
             alt="JDS Blue" 
             style={{
               height: '28px',

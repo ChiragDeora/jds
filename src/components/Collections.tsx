@@ -23,12 +23,12 @@ interface Item {
 export default function Collections() {
   // Example item data with proper placeholder images for JDS Blue Opticals
   const items: Item[] = [
-    { id: 1, gender: 'Men', type: 'Sunglass', style: 'Aviator', img: '/sunglasses-aviator.jpg' },
-    { id: 2, gender: 'Women', type: 'Optical', style: 'Cat Eye', img: '/sunglasses-cat-eye.jpg' },
-    { id: 3, gender: 'Unisex', type: 'Sunglass', style: 'Round', img: '/sunglasses-round.jpg' },
-    { id: 4, gender: 'Men', type: 'Optical', style: 'Square', img: '/optical-square.jpg' },
-    { id: 5, gender: 'Women', type: 'Sunglass', style: 'Wayfarer', img: '/sunglasses-wayfarer.jpg' },
-    { id: 6, gender: 'Unisex', type: 'Optical', style: 'Rimless', img: '/optical-rimless.jpg' }
+      { id: 1, gender: 'Men', type: 'Sunglass', style: 'Aviator', img: '/images/collections/sunglasses-aviator.jpg' },
+  { id: 2, gender: 'Women', type: 'Optical', style: 'Cat Eye', img: '/images/collections/sunglasses-cat-eye.jpg' },
+  { id: 3, gender: 'Unisex', type: 'Sunglass', style: 'Round', img: '/images/collections/sunglasses-round.jpg' },
+  { id: 4, gender: 'Men', type: 'Optical', style: 'Square', img: '/images/collections/optical-square.jpg' },
+  { id: 5, gender: 'Women', type: 'Sunglass', style: 'Wayfarer', img: '/images/collections/sunglasses-wayfarer.jpg' },
+  { id: 6, gender: 'Unisex', type: 'Optical', style: 'Rimless', img: '/images/collections/optical-rimless.jpg' }
   ];
   const [filter, setFilter] = useState('All');
 

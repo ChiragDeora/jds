@@ -12,9 +12,9 @@ interface FrameSlide {
 export default function HeroShowcaseDeck() {
   const slides: FrameSlide[] = useMemo(
     () => [
-      { src: '/sunglasses-wayfarer.jpg', title: 'Wayfarer', subtitle: 'Signature Sunglasses' },
-      { src: '/sunglasses-aviator.jpg', title: 'Aviator', subtitle: 'Iconic Metal' },
-      { src: '/optical-square.jpg', title: 'Square', subtitle: 'Precision Opticals' },
+        { src: '/images/collections/sunglasses-wayfarer.jpg', title: 'Wayfarer', subtitle: 'Signature Sunglasses' },
+  { src: '/images/collections/sunglasses-aviator.jpg', title: 'Aviator', subtitle: 'Iconic Metal' },
+  { src: '/images/collections/optical-square.jpg', title: 'Square', subtitle: 'Precision Opticals' },
     ],
     []
   );
